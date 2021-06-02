@@ -126,11 +126,6 @@ function createTodo() {
 
 }
 
-/* edit todo  */
-
-// const todo_info = document.getElementById("todo_info");
-// todo_info.addEventListener("click", editTodo);
-
 const close_btn = document.querySelectorAll(".close");
 close_btn.forEach((btn) => {
   btn.addEventListener("click", () => {
